@@ -1,4 +1,4 @@
-rom Weapon import weapon
+from Weapon import weapon
 from Vessels import vessel
 
 

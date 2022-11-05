@@ -1,10 +1,10 @@
 class Weapon:
-    def _init_(self,ammunitions int, rannge int ):
+    def __init__(self,ammunitions : int, Range :int ):
         self.ammunitions= ammunition
         self.rannge=rannge
 
 class lancemissiles_antisurface(Weapon):
-    def _init_(self, type, coordonnée_x, coordonée_y,coordonnée_z, rayon d action, ammunitions ):
+    def __init__(self, type, coordonnée_x, coordonée_y,coordonnée_z, rayon d action, ammunitions ):
         self.type= Surface
         self.coordonnée_x=""
         self.coordonnée_y=""
@@ -22,7 +22,7 @@ class lancemissile_anti-air(Weapon):
         self.ammuniations="50"
 
 class lance_torpilles(Weapon):
-    def_init_(self, type, coordonnée_x, coordonée_y,coordonnée_z, rayon d action, ammunitions ):
+    def_init_(self, type, coordonnée_x, coordonée_y,coordonnée_z, rayon action, ammunitions ):
         self.type= Sous-marine
         self.coordonnée_x=""
         self.coordonnée_y=""
